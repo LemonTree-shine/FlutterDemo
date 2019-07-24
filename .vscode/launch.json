@@ -9,6 +9,18 @@
             "program": "${workspaceFolder}/demo/lib/main.dart",
             "request": "launch",
             "type": "dart"
+        },
+        {
+            "name": "cardview",
+            "program": "${workspaceFolder}/cardview/lib/main.dart",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "routerdemo",
+            "program": "${workspaceFolder}/routerdemo/lib/main.dart",
+            "request": "launch",
+            "type": "dart"
         }
     ]
 }

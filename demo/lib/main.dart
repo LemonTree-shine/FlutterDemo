@@ -13,36 +13,37 @@ class MyApp extends StatelessWidget {
         ),
         body: Center(
           child: Stack(
-            alignment: FractionalOffset(0.5, 0.9),
             children: <Widget>[
               CircleAvatar(
                 backgroundImage: NetworkImage("https://avatars1.githubusercontent.com/u/20238337?v=4"),
                 radius: 180.0,
               ),
-              Container(
-                padding: EdgeInsets.fromLTRB(10,2,10,2),
-                decoration: BoxDecoration(
-                  color: Colors.lightBlue
-                ),
-                child: Text(
-                  "LemonTree-shine",
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 22.0,
-                    fontWeight: FontWeight.bold
+              Positioned(
+                top:25.0,
+                left: 95,
+                child: Container(
+                  color: Colors.green,
+                  padding: EdgeInsets.fromLTRB(20, 5, 20, 5),
+                  child: Text(
+                    "asdasdasdasd",
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 20.0
+                    ),
                   ),
                 ),
               ),
               Positioned(
-                top:20.0,
-                left: 110,
-                child: Text(
-                  "asdasdasdasd",
+                bottom: 20.0,
+                left: 120,
+                child:Text(
+                  "i like flutter",
                   style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 20.0
+                    color: Colors.pink,
+                    fontSize: 20,
+                    backgroundColor: Colors.white
                   ),
-                ),
+                )
               )
             ],
           ),
