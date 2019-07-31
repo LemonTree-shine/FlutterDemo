@@ -21,6 +21,12 @@
             "program": "${workspaceFolder}/routerdemo/lib/main.dart",
             "request": "launch",
             "type": "dart"
+        },
+        {
+            "name": "router2",
+            "program": "${workspaceFolder}/router2/lib/main.dart",
+            "request": "launch",
+            "type": "dart"
         }
     ]
 }
