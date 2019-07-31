@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Material App',
       home: ProductList(
-        products:List.generate(20, (i){
+        products:List<Product>.generate(20, (i){
           return Product('商品${i}', '这是一个商品${i}');
         })
       )
@@ -91,5 +91,9 @@ class ProductDetail extends StatelessWidget {
 class Product {
   final String title;
   final String describe;
+  bool flag;
+  setTitle(bool flag){
+    this.flag = flag;
+  }
   Product(this.title,this.describe);
 }
