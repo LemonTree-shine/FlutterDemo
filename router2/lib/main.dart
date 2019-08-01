@@ -22,6 +22,21 @@ class ProductList extends StatelessWidget {
 
   ProductList({Key key,@required this.products}) : super(key: key);
 
+  _navigateSendData(BuildContext context,int index) async{
+    final result = await Navigator.push(context, MaterialPageRoute(
+      builder: (context){
+        return ProductDetail(
+          productd: '${products[index].title},${products[index].describe}',
+          productObj:products[index]
+        );
+      }
+    ));
+
+    Scaffold.of(context).showSnackBar(SnackBar(
+      content: Text('${result}'),
+    ));
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -35,15 +50,7 @@ class ProductList extends StatelessWidget {
             return ListTile(
               title: Text('${products[index].title},${products[index].describe}'),
               onTap: (){
-                print(index);
-                Navigator.push(context, MaterialPageRoute(
-                  builder: (context){
-                    return ProductDetail(
-                      productd: '${products[index].title},${products[index].describe}',
-                      productObj:products[index]
-                    );
-                  }
-                ));
+                _navigateSendData(context,index);
               },
             );
           },
@@ -78,7 +85,7 @@ class ProductDetail extends StatelessWidget {
             ),
             color: Colors.blue,
             onPressed: (){
-              Navigator.pop(context);
+              Navigator.pop(context,productd);
             },
           ),
         ),
