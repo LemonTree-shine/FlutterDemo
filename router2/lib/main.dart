@@ -76,18 +76,29 @@ class ProductDetail extends StatelessWidget {
       ),
       body: Center(
         child: Container(
-          child: RaisedButton(
-            child: Text(
-              productd,
-              style: TextStyle(
-                color: Colors.white
+          child: Column(
+            children: <Widget>[
+              RaisedButton(
+                child: Text(
+                  productd,
+                  style: TextStyle(
+                    color: Colors.white
+                  ),
+                ),
+                color: Colors.blue,
+                onPressed: (){
+                  Navigator.pop(context,productd);
+                },
               ),
-            ),
-            color: Colors.blue,
-            onPressed: (){
-              Navigator.pop(context,productd);
-            },
-          ),
+              Container(
+                child: Image.asset("images/11.png"),
+              ),
+              Container(
+                child: Image.network("http://www.xiaogangji.com/static/image/logo5.png"),
+              ),
+            ],
+          )
+          
         ),
       ),
     );
