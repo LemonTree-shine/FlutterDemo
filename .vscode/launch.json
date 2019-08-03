@@ -21,6 +21,15 @@
             "program": "${workspaceFolder}/routerdemo/lib/main.dart",
             "request": "launch",
             "type": "dart"
+<<<<<<< HEAD
+=======
+        },
+        {
+            "name": "router2",
+            "program": "${workspaceFolder}/router2/lib/main.dart",
+            "request": "launch",
+            "type": "dart"
+>>>>>>> 0e477e39d8ceed3bd5049880bbc88efe4e7597b3
         }
     ]
 }

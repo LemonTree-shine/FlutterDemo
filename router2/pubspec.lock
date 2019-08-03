@@ -5,35 +5,55 @@ packages:
     dependency: transitive
     description:
       name: async
+<<<<<<< HEAD
       url: "https://pub.flutter-io.cn"
+=======
+      url: "https://pub.dartlang.org"
+>>>>>>> 0e477e39d8ceed3bd5049880bbc88efe4e7597b3
     source: hosted
     version: "2.1.0"
   boolean_selector:
     dependency: transitive
     description:
       name: boolean_selector
+<<<<<<< HEAD
       url: "https://pub.flutter-io.cn"
+=======
+      url: "https://pub.dartlang.org"
+>>>>>>> 0e477e39d8ceed3bd5049880bbc88efe4e7597b3
     source: hosted
     version: "1.0.4"
   charcode:
     dependency: transitive
     description:
       name: charcode
+<<<<<<< HEAD
       url: "https://pub.flutter-io.cn"
+=======
+      url: "https://pub.dartlang.org"
+>>>>>>> 0e477e39d8ceed3bd5049880bbc88efe4e7597b3
     source: hosted
     version: "1.1.2"
   collection:
     dependency: transitive
     description:
       name: collection
+<<<<<<< HEAD
       url: "https://pub.flutter-io.cn"
+=======
+      url: "https://pub.dartlang.org"
+>>>>>>> 0e477e39d8ceed3bd5049880bbc88efe4e7597b3
     source: hosted
     version: "1.14.11"
   cupertino_icons:
     dependency: "direct main"
     description:
       name: cupertino_icons
+<<<<<<< HEAD
       url: "https://pub.flutter-io.cn"
+=======
+      url: "https://pub.dartlang.org"
+>>>>>>> 0e477e39d8ceed3bd5049880bbc88efe4e7597b3
     source: hosted
     version: "0.1.2"
   flutter:
@@ -50,35 +70,55 @@ packages:
     dependency: transitive
     description:
       name: matcher
+<<<<<<< HEAD
       url: "https://pub.flutter-io.cn"
+=======
+      url: "https://pub.dartlang.org"
+>>>>>>> 0e477e39d8ceed3bd5049880bbc88efe4e7597b3
     source: hosted
     version: "0.12.5"
   meta:
     dependency: transitive
     description:
       name: meta
+<<<<<<< HEAD
       url: "https://pub.flutter-io.cn"
+=======
+      url: "https://pub.dartlang.org"
+>>>>>>> 0e477e39d8ceed3bd5049880bbc88efe4e7597b3
     source: hosted
     version: "1.1.6"
   path:
     dependency: transitive
     description:
       name: path
+<<<<<<< HEAD
       url: "https://pub.flutter-io.cn"
+=======
+      url: "https://pub.dartlang.org"
+>>>>>>> 0e477e39d8ceed3bd5049880bbc88efe4e7597b3
     source: hosted
     version: "1.6.2"
   pedantic:
     dependency: transitive
     description:
       name: pedantic
+<<<<<<< HEAD
       url: "https://pub.flutter-io.cn"
+=======
+      url: "https://pub.dartlang.org"
+>>>>>>> 0e477e39d8ceed3bd5049880bbc88efe4e7597b3
     source: hosted
     version: "1.5.0"
   quiver:
     dependency: transitive
     description:
       name: quiver
+<<<<<<< HEAD
       url: "https://pub.flutter-io.cn"
+=======
+      url: "https://pub.dartlang.org"
+>>>>>>> 0e477e39d8ceed3bd5049880bbc88efe4e7597b3
     source: hosted
     version: "2.0.2"
   sky_engine:
@@ -90,56 +130,88 @@ packages:
     dependency: transitive
     description:
       name: source_span
+<<<<<<< HEAD
       url: "https://pub.flutter-io.cn"
+=======
+      url: "https://pub.dartlang.org"
+>>>>>>> 0e477e39d8ceed3bd5049880bbc88efe4e7597b3
     source: hosted
     version: "1.5.5"
   stack_trace:
     dependency: transitive
     description:
       name: stack_trace
+<<<<<<< HEAD
       url: "https://pub.flutter-io.cn"
+=======
+      url: "https://pub.dartlang.org"
+>>>>>>> 0e477e39d8ceed3bd5049880bbc88efe4e7597b3
     source: hosted
     version: "1.9.3"
   stream_channel:
     dependency: transitive
     description:
       name: stream_channel
+<<<<<<< HEAD
       url: "https://pub.flutter-io.cn"
+=======
+      url: "https://pub.dartlang.org"
+>>>>>>> 0e477e39d8ceed3bd5049880bbc88efe4e7597b3
     source: hosted
     version: "2.0.0"
   string_scanner:
     dependency: transitive
     description:
       name: string_scanner
+<<<<<<< HEAD
       url: "https://pub.flutter-io.cn"
+=======
+      url: "https://pub.dartlang.org"
+>>>>>>> 0e477e39d8ceed3bd5049880bbc88efe4e7597b3
     source: hosted
     version: "1.0.4"
   term_glyph:
     dependency: transitive
     description:
       name: term_glyph
+<<<<<<< HEAD
       url: "https://pub.flutter-io.cn"
+=======
+      url: "https://pub.dartlang.org"
+>>>>>>> 0e477e39d8ceed3bd5049880bbc88efe4e7597b3
     source: hosted
     version: "1.1.0"
   test_api:
     dependency: transitive
     description:
       name: test_api
+<<<<<<< HEAD
       url: "https://pub.flutter-io.cn"
+=======
+      url: "https://pub.dartlang.org"
+>>>>>>> 0e477e39d8ceed3bd5049880bbc88efe4e7597b3
     source: hosted
     version: "0.2.4"
   typed_data:
     dependency: transitive
     description:
       name: typed_data
+<<<<<<< HEAD
       url: "https://pub.flutter-io.cn"
+=======
+      url: "https://pub.dartlang.org"
+>>>>>>> 0e477e39d8ceed3bd5049880bbc88efe4e7597b3
     source: hosted
     version: "1.1.6"
   vector_math:
     dependency: transitive
     description:
       name: vector_math
+<<<<<<< HEAD
       url: "https://pub.flutter-io.cn"
+=======
+      url: "https://pub.dartlang.org"
+>>>>>>> 0e477e39d8ceed3bd5049880bbc88efe4e7597b3
     source: hosted
     version: "2.0.8"
 sdks:
