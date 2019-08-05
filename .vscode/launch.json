@@ -21,15 +21,18 @@
             "program": "${workspaceFolder}/routerdemo/lib/main.dart",
             "request": "launch",
             "type": "dart"
-<<<<<<< HEAD
-=======
         },
         {
             "name": "router2",
             "program": "${workspaceFolder}/router2/lib/main.dart",
             "request": "launch",
             "type": "dart"
->>>>>>> 0e477e39d8ceed3bd5049880bbc88efe4e7597b3
+        },
+        {
+            "name": "bottom_navigate_demo",
+            "program": "${workspaceFolder}/bottom_navigate_demo/lib/main.dart",
+            "request": "launch",
+            "type": "dart"
         }
     ]
 }

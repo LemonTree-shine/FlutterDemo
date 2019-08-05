@@ -28,11 +28,7 @@ class MyApp extends StatelessWidget {
                     "asdasdasdasd",
                     style: TextStyle(
                       color: Colors.white,
-<<<<<<< HEAD
-                      fontSize: 20.0
-=======
                       fontSize: 20.0,
->>>>>>> 0e477e39d8ceed3bd5049880bbc88efe4e7597b3
                     ),
                   ),
                 ),
