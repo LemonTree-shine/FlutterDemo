@@ -33,6 +33,12 @@
             "program": "${workspaceFolder}/bottom_navigate_demo/lib/main.dart",
             "request": "launch",
             "type": "dart"
+        },
+        {
+            "name": "bilibili_demo",
+            "program": "${workspaceFolder}/bilibili_demo/lib/main.dart",
+            "request": "launch",
+            "type": "dart"
         }
     ]
 }
