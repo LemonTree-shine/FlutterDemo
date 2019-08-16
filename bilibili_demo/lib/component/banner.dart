@@ -1,5 +1,5 @@
 import "package:flutter/material.dart";
-
+import './my_toast.dart';
 class BannerImage extends StatelessWidget {
   const BannerImage({Key key}) : super(key: key);
 
@@ -12,11 +12,16 @@ class BannerImage extends StatelessWidget {
       decoration: BoxDecoration(
         color: Colors.white,
       ),
-      child: ClipRRect(
-        borderRadius: BorderRadius.circular(8),
-        child: Image.asset(
-          "images/banner.png",
-          fit: BoxFit.fill,
+      child: GestureDetector(
+        onTap: (){
+          MyToast.show(context, "测试测测试测试提示消息测试测试提示消息试提示消息");
+        },
+        child: ClipRRect(
+          borderRadius: BorderRadius.circular(8),
+          child: Image.asset(
+            "images/banner.png",
+            fit: BoxFit.fill,
+          ),
         ),
       ),
     );

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import './component/tab_bar.dart';
 import './component/banner.dart';
 import './component/list_index.dart';
+import './component/my_toast.dart';
  
 void main() => runApp(MyApp());
  
@@ -46,7 +47,8 @@ class MyApp extends StatelessWidget {
                 ),
                 child: GestureDetector(
                   onTap: (){
-                    print("点我点我点我");
+                    print(context);
+                    MyToast.show(context, "这是一个toast");
                   },
                   child: Row(
                     children: <Widget>[
