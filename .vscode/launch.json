@@ -39,6 +39,12 @@
             "program": "${workspaceFolder}/bilibili_demo/lib/main.dart",
             "request": "launch",
             "type": "dart"
+        },
+        {
+            "name": "flutter_router",
+            "program": "${workspaceFolder}/flutter_router/lib/main.dart",
+            "request": "launch",
+            "type": "dart"
         }
     ]
 }
